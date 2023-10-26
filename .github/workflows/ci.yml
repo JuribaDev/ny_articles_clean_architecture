@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [ main, stag, dev ]
+
+jobs:
+
+
+  verify-flutter:
+    uses: ./.github/workflows/flutter_package.yml
+    with:
+      flutter_channel: stable
+      flutter_version: 3.13.4
+      setup: flutter doctor --verbose
+
+
+  #  verify-pana-flutter:
+  #    uses: ./.github/workflows/pana.yml
+  #    with:
+  #      min_score: 95
+
+
+  build:
+    needs:
+      verify-flutter
+    #        [
+    #        verify-flutter,
+    #        verify-pana-flutter,
+    #    ]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: noop
+        run: echo 'noop'
