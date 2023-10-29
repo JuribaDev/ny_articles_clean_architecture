@@ -1,3 +1,5 @@
+// ignore_for_file: inference_failure_on_collection_literal
+
 final Map<String, dynamic> articleResponseJsonTest = {
   'uri': 'nyt://article/d89e8363-7567-59b7-879b-bf6eb58f1d68',
   'url': 'https://www.nytimes.com/2023/10/21/us/politics/chesebro-trump.html',

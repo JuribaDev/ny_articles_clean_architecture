@@ -24,6 +24,7 @@ class ArticleRemoteDataSource {
         ArticleResponseModel.fromJson,
       );
     } on DioException catch (error) {
+      logger.e('DioException: ${error.message}', error: error, stackTrace: error.stackTrace);
       throw parseExceptions(error, logger);
     } catch (e, stackTrace) {
       logger.e('Unexpected error: $e', error: e, stackTrace: stackTrace);

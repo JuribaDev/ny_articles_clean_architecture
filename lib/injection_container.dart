@@ -7,6 +7,9 @@ import 'package:logger/logger.dart';
 import 'package:ny_articles_clean_architecture/core/constants/network.dart';
 import 'package:ny_articles_clean_architecture/core/network/network_manager.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/repositories/article_repository_imp.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/repositories/article_repository_interface.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart';
 
 final sl = GetIt.instance;
 
@@ -19,6 +22,17 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<RetryInterceptor>(RetryInterceptor(dio: sl(), retries: retries, retryDelays: retryDelays));
   // NetworkManager
   sl.registerSingleton(NetworkManager(dio: sl(), baseUrl: baseUrl, retryInterceptor: sl()));
-  // ApiClient
+
+  /// Most Viewed Articles Feature
+
+  // ArticleRemoteDataSource
   sl.registerSingleton<ArticleRemoteDataSource>(ArticleRemoteDataSource(sl(), sl()));
+  // ArticleRepository
+  sl.registerSingleton<ArticleRepositoryInterface>(ArticleRepositoryImp(
+    sl(),
+  ));
+  // GetMostViewedArticles
+  sl.registerSingleton<GetMostViewedArticlesUseCase>(GetMostViewedArticlesUseCase(
+    sl(),
+  ));
 }
