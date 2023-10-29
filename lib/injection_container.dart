@@ -6,7 +6,7 @@ import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 import 'package:ny_articles_clean_architecture/core/constants/network.dart';
 import 'package:ny_articles_clean_architecture/core/network/network_manager.dart';
-import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/api_client.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart';
 
 final sl = GetIt.instance;
 
@@ -20,5 +20,5 @@ Future<void> initializeDependencies() async {
   // NetworkManager
   sl.registerSingleton(NetworkManager(dio: sl(), baseUrl: baseUrl, retryInterceptor: sl()));
   // ApiClient
-  sl.registerSingleton<ApiClient>(ApiClient(sl(), sl()));
+  sl.registerSingleton<ArticleRemoteDataSource>(ArticleRemoteDataSource(sl(), sl()));
 }

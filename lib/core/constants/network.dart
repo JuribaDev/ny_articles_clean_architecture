@@ -11,5 +11,5 @@ const baseUrl = 'https://api.nytimes.com/';
 
 const apiKey = 'bcvHicFlnhxVBfwVPM5eOT5Ox5ZdVM0u';
 
-String mostViewedArticlesEndpoint({required int period}) =>
+String mostViewedArticlesEndpoint(int period) =>
     'svc/mostpopular/v2/mostviewed/all-sections/$period.json?api-key=$apiKey';
