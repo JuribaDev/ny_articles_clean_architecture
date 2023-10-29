@@ -10,12 +10,13 @@ import 'package:ny_articles_clean_architecture/features/most_viewed_articles/dat
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/repositories/article_repository_imp.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/repositories/article_repository_interface.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart';
+import 'package:ny_articles_clean_architecture/features/presentation/bloc/most_viewed_article_bloc.dart';
 
 final sl = GetIt.instance;
 
-Future<void> initializeDependencies() async {
+Future<void> initializeDependencies(Logger logger) async {
   // Logger
-  sl.registerSingleton<Logger>(Logger());
+  sl.registerSingleton<Logger>(logger);
   // Dio
   sl.registerSingleton<Dio>(Dio());
   // RetryInterceptor
@@ -31,8 +32,11 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<ArticleRepositoryInterface>(ArticleRepositoryImp(
     sl(),
   ));
-  // GetMostViewedArticles
+  // GetMostViewedArticles Use Case
   sl.registerSingleton<GetMostViewedArticlesUseCase>(GetMostViewedArticlesUseCase(
     sl(),
   ));
+
+  // GetMostViewedArticles Bloc
+  sl.registerFactory<MostViewedArticleBloc>(() => MostViewedArticleBloc(sl()));
 }

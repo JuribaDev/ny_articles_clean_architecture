@@ -25,7 +25,7 @@ void main() {
         .thenAnswer((_) async => Right(articleEntityList));
 
     // Act
-    final result = await useCase.call(params: period);
+    final result = await useCase.call(period);
 
     // Assert
     result.fold(
@@ -42,7 +42,7 @@ void main() {
         .thenAnswer((_) async => Left(Failure(message: 'Something went wrong')));
 
     // Act
-    final result = await useCase.call(params: period);
+    final result = await useCase.call(period);
 
     // Assert
     result.fold(
