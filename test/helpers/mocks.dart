@@ -3,8 +3,13 @@ import 'package:logger/logger.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:ny_articles_clean_architecture/core/network/network_manager.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/repositories/article_repository_interface.dart';
 
 class MockApiClient extends Mock implements ArticleRemoteDataSource {}
+
+class MockArticleRemoteDataSource extends Mock implements ArticleRemoteDataSource {}
+
+class MockArticleRepositoryInterface extends Mock implements ArticleRepositoryInterface {}
 
 class MockNetworkManager extends Mock implements NetworkManager {}
 

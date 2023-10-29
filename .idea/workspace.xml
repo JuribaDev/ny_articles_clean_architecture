@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14ffac51-edf6-4e1f-b226-814fcc9c2f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/core/use_case/user_case.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/repositories_test/article_repository_test_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated_code.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constants/typedevs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constants/type_devs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/repositories/article_repository_imp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/repositories/article_repository_imp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/repositories/article_repository_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/repositories/article_repository_interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/injection_container.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/injection_container.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/json.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/mocks.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart Test File" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XQf2WDQAem1neg1QAYNsR0OfrX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/juriba/projects/flutterprojects/ny_articles_clean_architecture/test/features_test/most_viewed_articles_test/domain_test",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter Test.tests in get_most_viewed_articles_test.dart">
+    <configuration name="Throws DioException when request fails" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="Throws DioException when request fails" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return Failure when the call to remote data source is unsuccessful" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return Failure when the call to remote data source is unsuccessful" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/repositories_test/article_repository_test_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in article_remote_data_source_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in get_most_viewed_articles_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in test" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testDir" value="$PROJECT_DIR$/test" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.tests in get_most_viewed_articles_test.dart" />
+        <item itemvalue="Flutter Test.tests in test" />
+        <item itemvalue="Flutter Test.Throws DioException when request fails" />
+        <item itemvalue="Flutter Test.tests in article_remote_data_source_test.dart" />
+        <item itemvalue="Flutter Test.should return Failure when the call to remote data source is unsuccessful" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14ffac51-edf6-4e1f-b226-814fcc9c2f92" name="Changes" comment="" />
+      <created>1698566018097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698566018097</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/lib/features/most_viewed_articles/data/repositories/article_repository_imp.dart" line="17">
+        <watch expression="watch" language="Dart" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../projects/flutterprojects/ny_articles_clean_architecture/coverage/lcov.info" NAME="tests in test Coverage Results" MODIFIED="1698592594908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="FlutterCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

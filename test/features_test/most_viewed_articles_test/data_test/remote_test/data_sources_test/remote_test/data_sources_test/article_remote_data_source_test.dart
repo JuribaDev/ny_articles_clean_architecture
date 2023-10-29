@@ -43,7 +43,7 @@ void main() {
       when(() => mockDio.get(any())).thenThrow(DioException(requestOptions: RequestOptions()));
 
       expect(() => articleRemoteDataSource.getMostViewedArticle(7), throwsA(isA<NonUserViewableException>()));
-      verify(() => mockLogger.e(any(), error: any(named: 'error'), stackTrace: any(named: 'stackTrace'))).called(1);
+      verify(() => mockLogger.e(any(), error: any(named: 'error'), stackTrace: any(named: 'stackTrace'))).called(2);
     });
     test('Throws Unexpected Exception when request fails', () {
       when(() => mockDio.get(any())).thenThrow(Exception());
