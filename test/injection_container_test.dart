@@ -3,7 +3,7 @@ import 'package:dio_smart_retry/dio_smart_retry.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
 import 'package:ny_articles_clean_architecture/core/network/network_manager.dart';
-import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/api_client.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart';
 import 'package:ny_articles_clean_architecture/injection_container.dart';
 import 'package:test/test.dart';
 
@@ -40,9 +40,9 @@ void main() {
     });
 
     test('should register ApiClient', () {
-      final instance = sl<ApiClient>();
+      final instance = sl<ArticleRemoteDataSource>();
       expect(instance, isNotNull);
-      expect(instance, isA<ApiClient>());
+      expect(instance, isA<ArticleRemoteDataSource>());
     });
   });
 }
