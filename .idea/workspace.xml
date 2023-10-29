@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ffac51-edf6-4e1f-b226-814fcc9c2f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/core/use_case/user_case.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/repositories_test/article_repository_test_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app_initializer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/theme/color_scheme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/widgets/responsive_layout_wrapper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/screens/mobile_portrait/most_viewed_articles_mobile_portrait_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/screens/most_viewed_articles_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/core_test/widgets_test/responsive_layout_wrapper_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_code.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/constants/typedevs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constants/type_devs.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/repositories/article_repository_imp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/data/repositories/article_repository_imp.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/repositories/article_repository_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/repositories/article_repository_interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/view/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/view/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bootstrap.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/use_case/user_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/use_case/user_case.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/domain/user_cases/get_most_viewed_articles.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/injection_container.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/injection_container.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/json.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_development.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_development.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_production.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_production.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_staging.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_staging.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/injection_container_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/injection_container_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +39,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dart Test File" />
         <option value="Dart File" />
+        <option value="Dart Test File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +53,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectId" id="2XQf2WDQAem1neg1QAYNsR0OfrX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,37 +70,48 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
+    "code.cleanup.on.save": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/juriba/projects/flutterprojects/ny_articles_clean_architecture/test/features_test/most_viewed_articles_test/domain_test",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/juriba/projects/flutterprojects/ny_articles_clean_architecture/lib",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/test/core_test" />
+      <recent name="$PROJECT_DIR$/lib/core" />
       <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/lib/features/presentation/bloc" />
+    </key>
   </component>
-  <component name="RunManager" selected="Flutter Test.tests in get_most_viewed_articles_test.dart">
-    <configuration name="Throws DioException when request fails" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="Throws DioException when request fails" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" />
+  <component name="RunManager" selected="Flutter.development">
+    <configuration name="initializeDependencies is successful on the first attempt" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="initializeDependencies is successful on the first attempt" />
+      <option name="testFile" value="$PROJECT_DIR$/test/app_initializer_test_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="should return Failure when the call to remote data source is unsuccessful" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should return Failure when the call to remote data source is unsuccessful" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/repositories_test/article_repository_test_test.dart" />
+    <configuration name="should register ArticleRepository" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should register ArticleRepository" />
+      <option name="testFile" value="$PROJECT_DIR$/test/injection_container_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in article_remote_data_source_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" />
+    <configuration name="should register GetMostViewedArticlesUseCase" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should register GetMostViewedArticlesUseCase" />
+      <option name="testFile" value="$PROJECT_DIR$/test/injection_container_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in get_most_viewed_articles_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test/use_cases_test/get_most_viewed_articles_test.dart" />
+    <configuration name="tests in app_initializer_test_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/app_initializer_test_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
@@ -91,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.tests in get_most_viewed_articles_test.dart" />
         <item itemvalue="Flutter Test.tests in test" />
-        <item itemvalue="Flutter Test.Throws DioException when request fails" />
-        <item itemvalue="Flutter Test.tests in article_remote_data_source_test.dart" />
-        <item itemvalue="Flutter Test.should return Failure when the call to remote data source is unsuccessful" />
+        <item itemvalue="Flutter Test.tests in app_initializer_test_test.dart" />
+        <item itemvalue="Flutter Test.initializeDependencies is successful on the first attempt" />
+        <item itemvalue="Flutter Test.should register GetMostViewedArticlesUseCase" />
+        <item itemvalue="Flutter Test.should register ArticleRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +149,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="../../../../projects/flutterprojects/ny_articles_clean_architecture/coverage/lcov.info" NAME="tests in test Coverage Results" MODIFIED="1698592594908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="FlutterCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="../../../../projects/flutterprojects/ny_articles_clean_architecture/coverage/lcov.info" NAME="tests in responsive_layout_wrapper_test.dart Coverage Results" MODIFIED="1698597368395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="FlutterCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
