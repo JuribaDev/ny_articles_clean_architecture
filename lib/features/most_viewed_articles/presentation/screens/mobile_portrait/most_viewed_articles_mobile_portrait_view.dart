@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:ny_articles_clean_architecture/features/presentation/bloc/most_viewed_article_bloc.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/presentation/bloc/most_viewed_article_bloc.dart';
 
 class MostViewedArticlesMobilePortraitView extends HookWidget {
   const MostViewedArticlesMobilePortraitView({super.key});
