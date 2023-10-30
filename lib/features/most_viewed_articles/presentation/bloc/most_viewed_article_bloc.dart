@@ -7,7 +7,7 @@ part 'most_viewed_article_event.dart';
 part 'most_viewed_article_state.dart';
 
 class MostViewedArticleBloc extends Bloc<MostViewedArticleEvent, MostViewedArticleState> {
-  MostViewedArticleBloc(this.getMostViewedArticlesUseCase) : super(MostViewedArticleLoading()) {
+  MostViewedArticleBloc(this.getMostViewedArticlesUseCase) : super(MostViewedArticleLoadingState()) {
     on<GetMostViewedArticlesEvent>(_onGetMostViewedArticles);
   }
 
@@ -15,7 +15,7 @@ class MostViewedArticleBloc extends Bloc<MostViewedArticleEvent, MostViewedArtic
 
   Future<void> _onGetMostViewedArticles(GetMostViewedArticlesEvent event, Emitter<MostViewedArticleState> emit) async {
     final result = await getMostViewedArticlesUseCase(event.period!);
-    result.fold((failure) => emit(MostViewedArticleError(failure.toString())),
-        (articles) => emit(MostViewedArticleIsLoaded(articles)));
+    result.fold((failure) => emit(MostViewedArticleErrorState(failure.toString())),
+        (articles) => emit(MostViewedArticleIsLoadedState(articles)));
   }
 }

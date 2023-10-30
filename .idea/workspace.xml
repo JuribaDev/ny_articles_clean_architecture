@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ffac51-edf6-4e1f-b226-814fcc9c2f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/app/view/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/view/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_event.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/presentation/bloc/most_viewed_article_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/screens/mobile_portrait/most_viewed_articles_mobile_portrait_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/mobile_portrait/most_viewed_articles_mobile_portrait_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/screens/most_viewed_articles_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/most_viewed_articles_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/injection_container.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/injection_container.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bootstrap.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_production.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_production.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_staging.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_staging.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/juriba/projects/flutterprojects/ny_articles_clean_architecture/lib&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "code.cleanup.on.save": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/juribadev/projects/flutterprojects/ny_articles_clean_architecture/test/features_test/most_viewed_articles_test/presentation_test/bloc_test",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/test/core_test" />
       <recent name="$PROJECT_DIR$/lib/core" />
@@ -75,42 +73,41 @@
       <recent name="$PROJECT_DIR$/lib/features/presentation/bloc" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.development">
-    <configuration name="initializeDependencies is successful on the first attempt" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="initializeDependencies is successful on the first attempt" />
-      <option name="testFile" value="$PROJECT_DIR$/test/app_initializer_test_test.dart" />
+  <component name="RunManager" selected="Flutter Test.Initial state of MostViewedArticleBloc is MostViewedArticleInitial">
+    <configuration name="Initial state of MostViewedArticleBloc is MostViewedArticleInitial" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="Initial state of MostViewedArticleBloc is MostViewedArticleInitial" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="should register ArticleRepository" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should register ArticleRepository" />
-      <option name="testFile" value="$PROJECT_DIR$/test/injection_container_test.dart" />
+    <configuration name="emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="should register GetMostViewedArticlesUseCase" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should register GetMostViewedArticlesUseCase" />
-      <option name="testFile" value="$PROJECT_DIR$/test/injection_container_test.dart" />
+    <configuration name="tests in most_viewed_article_bloc_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in app_initializer_test_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/app_initializer_test_test.dart" />
+    <configuration name="tests in most_viewed_article_event_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_event_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in test" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testDir" value="$PROJECT_DIR$/test" />
+    <configuration name="tests in most_viewed_article_state_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_state_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.tests in test" />
-        <item itemvalue="Flutter Test.tests in app_initializer_test_test.dart" />
-        <item itemvalue="Flutter Test.initializeDependencies is successful on the first attempt" />
-        <item itemvalue="Flutter Test.should register GetMostViewedArticlesUseCase" />
-        <item itemvalue="Flutter Test.should register ArticleRepository" />
+        <item itemvalue="Flutter Test.Initial state of MostViewedArticleBloc is MostViewedArticleInitial" />
+        <item itemvalue="Flutter Test.tests in most_viewed_article_state_test.dart" />
+        <item itemvalue="Flutter Test.tests in most_viewed_article_event_test.dart" />
+        <item itemvalue="Flutter Test.tests in most_viewed_article_bloc_test.dart" />
+        <item itemvalue="Flutter Test.emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" />
       </list>
     </recent_temporary>
   </component>

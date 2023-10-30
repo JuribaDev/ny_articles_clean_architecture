@@ -4,8 +4,8 @@ abstract class MostViewedArticleState extends Equatable {
   const MostViewedArticleState();
 }
 
-class MostViewedArticleIsLoaded extends MostViewedArticleState {
-  const MostViewedArticleIsLoaded(this.articles);
+class MostViewedArticleIsLoadedState extends MostViewedArticleState {
+  const MostViewedArticleIsLoadedState(this.articles);
 
   final List<ArticleEntity> articles;
 
@@ -13,13 +13,13 @@ class MostViewedArticleIsLoaded extends MostViewedArticleState {
   List<Object> get props => [articles];
 }
 
-class MostViewedArticleLoading extends MostViewedArticleState {
+class MostViewedArticleLoadingState extends MostViewedArticleState {
   @override
   List<Object?> get props => [];
 }
 
-class MostViewedArticleError extends MostViewedArticleState {
-  const MostViewedArticleError(this.error);
+class MostViewedArticleErrorState extends MostViewedArticleState {
+  const MostViewedArticleErrorState(this.error);
 
   final String error;
 

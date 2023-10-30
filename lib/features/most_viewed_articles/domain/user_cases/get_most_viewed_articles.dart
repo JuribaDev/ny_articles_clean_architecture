@@ -9,7 +9,7 @@ class GetMostViewedArticlesUseCase implements UseCase<List<ArticleEntity>, int> 
   final ArticleRepositoryInterface articleRepositoryInterface;
 
   @override
-  EitherFailureOrSuccess<List<ArticleEntity>> call(int params) {
-    return articleRepositoryInterface.getMostViewedArticles(params);
+  EitherFailureOrSuccess<List<ArticleEntity>> call(int param) {
+    return articleRepositoryInterface.getMostViewedArticles(param);
   }
 }

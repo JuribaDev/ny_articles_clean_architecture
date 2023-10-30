@@ -10,13 +10,13 @@ class MostViewedArticlesMobilePortraitView extends HookWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: BlocBuilder<MostViewedArticleBloc, MostViewedArticleState>(builder: (_, state) {
-        if (state is MostViewedArticleLoading) {
+        if (state is MostViewedArticleLoadingState) {
           return const Scaffold(body: Center(child: CircularProgressIndicator.adaptive()));
         }
-        if (state is MostViewedArticleError) {
+        if (state is MostViewedArticleErrorState) {
           return const Scaffold(body: Center(child: Icon(Icons.refresh)));
         }
-        if (state is MostViewedArticleIsLoaded) {
+        if (state is MostViewedArticleIsLoadedState) {
           return SafeArea(
             child: Scaffold(
               body: ListView.builder(
