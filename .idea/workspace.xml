@@ -5,17 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ffac51-edf6-4e1f-b226-814fcc9c2f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/article_card_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/shimmers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/article_detail_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/articles_loading_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/custom_app_bar_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/error_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/filter_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/mobile_portrait_test/most_viewed_articles_mobile_portrait_view_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/article_card_widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/article_detail_widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/custom_error_widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/filter_widget_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/view/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/view/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/app.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/view/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/bloc/most_viewed_article_event.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/mobile_portrait/most_viewed_articles_mobile_portrait_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/mobile_portrait/most_viewed_articles_mobile_portrait_view.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/most_viewed_articles_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/most_viewed_articles_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/article_card_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/article_card_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation/screens/widgets/shimmers.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_development.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_development.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_production.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_production.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_staging.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_staging.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/view/app_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/data_test/remote_test/data_sources_test/remote_test/data_sources_test/article_remote_data_source_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_event_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_event_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/helpers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/helpers.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/models.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/models.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/pump_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/pump_app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +75,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/juribadev/projects/flutterprojects/ny_articles_clean_architecture/test/features_test/most_viewed_articles_test/presentation_test/bloc_test&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "code.cleanup.on.save": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/juriba/projects/flutterprojects/ny_articles_clean_architecture/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test" />
+      <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test" />
       <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/test/core_test" />
-      <recent name="$PROJECT_DIR$/lib/core" />
-      <recent name="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/domain_test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/features/most_viewed_articles/presentation" />
       <recent name="$PROJECT_DIR$/lib/features/most_viewed_articles" />
       <recent name="$PROJECT_DIR$/test" />
@@ -81,40 +107,39 @@
     </key>
   </component>
   <component name="RunManager" selected="Flutter.production">
-    <configuration name="Initial state of MostViewedArticleBloc is MostViewedArticleInitial" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="Initial state of MostViewedArticleBloc is MostViewedArticleInitial" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
+    <configuration name="ArticleCardWidget displays article title, byline, and a CachedNetworkImage" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="ArticleCardWidget displays article title, byline, and a CachedNetworkImage" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/article_card_widget_test.dart" />
+      <option name="useRegexp" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in app_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/app/view/app_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
+    <configuration name="tests in article_detail_widget_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/article_detail_widget_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in most_viewed_article_bloc_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_bloc_test.dart" />
+    <configuration name="tests in articles_loading_widget_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/widgets_test/articles_loading_widget_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in most_viewed_article_event_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_event_test.dart" />
-      <option name="useRegexp" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tests in most_viewed_article_state_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/bloc_test/most_viewed_article_state_test.dart" />
+    <configuration name="tests in most_viewed_articles_mobile_portrait_view_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features_test/most_viewed_articles_test/presentation_test/screens_test/mobile_portrait_test/most_viewed_articles_mobile_portrait_view_test.dart" />
       <option name="useRegexp" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.Initial state of MostViewedArticleBloc is MostViewedArticleInitial" />
-        <item itemvalue="Flutter Test.tests in most_viewed_article_state_test.dart" />
-        <item itemvalue="Flutter Test.tests in most_viewed_article_event_test.dart" />
-        <item itemvalue="Flutter Test.tests in most_viewed_article_bloc_test.dart" />
-        <item itemvalue="Flutter Test.emits [loading, success] when getMostViewedArticlesUseCase event returns a valid list of articles" />
+        <item itemvalue="Flutter Test.tests in article_detail_widget_test.dart" />
+        <item itemvalue="Flutter Test.ArticleCardWidget displays article title, byline, and a CachedNetworkImage" />
+        <item itemvalue="Flutter Test.tests in articles_loading_widget_test.dart" />
+        <item itemvalue="Flutter Test.tests in most_viewed_articles_mobile_portrait_view_test.dart" />
+        <item itemvalue="Flutter Test.tests in app_test.dart" />
       </list>
     </recent_temporary>
   </component>

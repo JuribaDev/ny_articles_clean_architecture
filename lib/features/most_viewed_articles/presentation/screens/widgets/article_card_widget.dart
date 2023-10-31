@@ -1,7 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
+import 'package:intl/intl.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/entities/article_entity.dart';
+import 'package:ny_articles_clean_architecture/features/most_viewed_articles/presentation/screens/widgets/article_detail_widget.dart';
 
 class ArticleCardWidget extends StatelessWidget {
   const ArticleCardWidget({required this.article, super.key});
@@ -12,6 +14,9 @@ class ArticleCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final hasImage = article.listMediaResponseModel.isNotEmpty;
     return ListTile(
+      onTap: () => showModalBottomSheet(
+          context: context, builder: (BuildContext context) => ArticleDetailWidget(article: article)),
+      isThreeLine: true,
       title: Text(
         article.title,
         style: const TextStyle(
@@ -21,14 +26,25 @@ class ArticleCardWidget extends StatelessWidget {
         maxLines: 2,
         overflow: TextOverflow.ellipsis,
       ),
-      subtitle: Text(
-        article.byline,
-        style: const TextStyle(
-          fontWeight: FontWeight.w400,
-          fontSize: 14,
-        ),
-        maxLines: 2,
-        overflow: TextOverflow.ellipsis,
+      subtitle: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Expanded(
+            child: Text(
+              article.byline,
+              style: const TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 14,
+              ),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+          const SizedBox(
+            width: 10,
+          ),
+          Text(DateFormat('yyy-MM-dd').format(article.publishedDate))
+        ],
       ),
       trailing: const Icon(Icons.arrow_forward_ios, size: 18),
       leading: hasImage

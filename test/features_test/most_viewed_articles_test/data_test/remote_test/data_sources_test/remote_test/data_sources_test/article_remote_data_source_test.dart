@@ -7,7 +7,6 @@ import 'package:ny_articles_clean_architecture/core/error_handling/non_user_view
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/data_sources/article_remote_data_source.dart';
 
 import '../../../../../../../helpers/helpers.dart';
-import '../../../../../../../helpers/mocks.dart';
 
 void main() {
   late ArticleRemoteDataSource articleRemoteDataSource;

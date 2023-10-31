@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:ny_articles_clean_architecture/app/app.dart';
+import 'package:ny_articles_clean_architecture/app.dart';
 import 'package:ny_articles_clean_architecture/app_initializer.dart';
 import 'package:ny_articles_clean_architecture/bootstrap.dart';
 

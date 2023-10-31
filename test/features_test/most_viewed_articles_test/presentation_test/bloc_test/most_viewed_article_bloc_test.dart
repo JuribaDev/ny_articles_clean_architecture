@@ -6,7 +6,6 @@ import 'package:ny_articles_clean_architecture/features/most_viewed_articles/pre
 import 'package:test/test.dart';
 
 import '../../../../helpers/helpers.dart';
-import '../../../../helpers/mocks.dart';
 
 void main() {
   late MockGetMostViewedArticlesUseCase getMostViewedArticlesUseCase;
@@ -52,6 +51,14 @@ void main() {
     expect: () => [
       MostViewedArticleLoadingState(),
       const MostViewedArticleErrorState('An error occurred'),
+    ],
+  );
+  blocTest<MostViewedArticleBloc, MostViewedArticleState>(
+    'emits [MostViewedArticleIsLoadedState] with filtered articles when SearchMostViewedArticlesEvent is added',
+    build: () => bloc,
+    act: (bloc) => bloc.add(SearchMostViewedArticlesEvent('From Bush v.', [articleEntityTest])),
+    expect: () => [
+      MostViewedArticleIsLoadedState([articleEntityTest])
     ],
   );
 }

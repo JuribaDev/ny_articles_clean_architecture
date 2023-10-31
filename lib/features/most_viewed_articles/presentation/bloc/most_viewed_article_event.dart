@@ -12,3 +12,13 @@ class GetMostViewedArticlesEvent extends MostViewedArticleEvent {
   @override
   List<Object?> get props => [period];
 }
+
+class SearchMostViewedArticlesEvent extends MostViewedArticleEvent {
+  const SearchMostViewedArticlesEvent(this.query, this.articles);
+
+  final String query;
+  final List<ArticleEntity> articles;
+
+  @override
+  List<Object?> get props => [query];
+}
