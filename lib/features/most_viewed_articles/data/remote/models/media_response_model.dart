@@ -1,3 +1,5 @@
+// ignore_for_file: invalid_annotation_target
+
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/data/remote/models/media_meta_data_response_model.dart';
 import 'package:ny_articles_clean_architecture/features/most_viewed_articles/domain/entities/media_entity.dart';

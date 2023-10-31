@@ -1,3 +1,5 @@
+// ignore_for_file: inference_failure_on_function_invocation, avoid_dynamic_calls
+
 import 'package:dio/dio.dart';
 import 'package:logger/logger.dart';
 import 'package:ny_articles_clean_architecture/core/constants/network.dart';

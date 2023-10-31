@@ -31,6 +31,7 @@ void main() {
     },
     act: (bloc) => bloc.add(const GetMostViewedArticlesEvent(period: 1)),
     expect: () => [
+      MostViewedArticleLoadingState(),
       MostViewedArticleIsLoadedState([articleEntityTest])
     ],
   );
@@ -49,6 +50,7 @@ void main() {
     },
     act: (bloc) => bloc.add(const GetMostViewedArticlesEvent(period: 1)),
     expect: () => [
+      MostViewedArticleLoadingState(),
       const MostViewedArticleErrorState('An error occurred'),
     ],
   );

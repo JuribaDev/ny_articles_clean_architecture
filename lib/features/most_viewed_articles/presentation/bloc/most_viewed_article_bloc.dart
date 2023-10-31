@@ -14,6 +14,7 @@ class MostViewedArticleBloc extends Bloc<MostViewedArticleEvent, MostViewedArtic
   final GetMostViewedArticlesUseCase getMostViewedArticlesUseCase;
 
   Future<void> _onGetMostViewedArticles(GetMostViewedArticlesEvent event, Emitter<MostViewedArticleState> emit) async {
+    emit(MostViewedArticleLoadingState());
     final result = await getMostViewedArticlesUseCase(event.period!);
     result.fold((failure) => emit(MostViewedArticleErrorState(failure.toString())),
         (articles) => emit(MostViewedArticleIsLoadedState(articles)));

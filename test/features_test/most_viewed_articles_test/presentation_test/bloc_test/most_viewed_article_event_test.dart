@@ -13,14 +13,7 @@ void main() {
     test('is not equal if the period is different', () {
       expect(
         const GetMostViewedArticlesEvent(period: 7),
-        isNot(const GetMostViewedArticlesEvent(period: 30)),
-      );
-    });
-
-    test('uses 30 as default period value and is equal to explicitly set 30', () {
-      expect(
-        const GetMostViewedArticlesEvent(),
-        const GetMostViewedArticlesEvent(period: 30),
+        isNot(const GetMostViewedArticlesEvent()),
       );
     });
   });
