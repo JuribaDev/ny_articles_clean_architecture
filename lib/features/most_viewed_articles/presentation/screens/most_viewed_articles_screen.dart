@@ -11,7 +11,7 @@ class MostViewedArticlesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<MostViewedArticleBloc>(
-      create: (context) => sl()..add(const GetMostViewedArticlesEvent()),
+      create: (context) => sl()..add(const GetMostViewedArticlesEvent(period: 7)),
       child: ResponsiveLayoutWrapper(
         mobilePortraitLayout: const MostViewedArticlesMobilePortraitView(),
         mobileLandscapeLayout: _placeholder('Tablet Portrait'),
